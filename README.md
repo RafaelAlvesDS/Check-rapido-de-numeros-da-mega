@@ -1,23 +1,9 @@
-# Check Rápido de Números da Mega-Sena 🎰
+# Check rápido de números
 
-Uma aplicação web simples para verificar rapidamente se seus números da Mega-Sena foram sorteados.
+Uma página só para conferir de bate-pronto os meus jogos da loteria depois do sorteio. Em vez de comparar número por número, eu marco os sorteados e ela destaca em verde onde eles aparecem nos jogos.
 
-##  Como Usar
+Como usar: abra o `index.html` no navegador, clique nos números sorteados na tabela de cima e olhe os jogos embaixo. Clicar de novo desmarca.
 
-1. Abra o arquivo `index.html` em seu navegador
-2. Clique nos números sorteados na tabela principal (1 a 80)
-3. Os números selecionados ficam destacados em verde
-4. Visualize automaticamente quais jogos tiveram acertos
+A tabela vai de 1 a 80 e cada jogo tem 5 dezenas, que é o formato da Quina, apesar do nome do repositório. Os jogos ficam fixos no array `numbers`, no fim do `index.html`. Para conferir outros, é só trocar essa lista.
 
-## 🛠️ Tecnologias
-
-- HTML5, CSS3, JavaScript/jQuery
-- Bootstrap 5
-
-## � Execução
-
-Simplesmente abra o arquivo `index.html` em qualquer navegador moderno.
-
-## 👤 Autor
-
-**Rafael Alves** - [@RafaelAlvesDS](https://github.com/RafaelAlvesDS)
+Usa Bootstrap 5 e jQuery, carregados por CDN.
